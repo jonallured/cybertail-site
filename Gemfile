@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.3.2'
-#ruby-gemset=cybertail_site
+
+ruby File.read('.tool-versions').split[1]
 
 gem 'middleman'
+gem 'rake'
